@@ -7,11 +7,11 @@ func (m Matrix) Normalize(col int) {
 	// TODO
 }
 
-// EliminateBelow erwartet eine Zeilennummer `row`.
-// Multipliziert alle Zeilen unter der Zeile row mit -1/Matrix[row][row] und addiert sie zur Zeile row.
+// EliminateBelow erwartet eine Spaltennummer `col`.
+// Multipliziert alle Zeilen row unter der Zeile col mit -1/Matrix[row][col] und addiert sie zur Zeile row.
 // Dadurch wird jeweils das Element unter dem Diagonalelement 0.
-// Voraussetzung: Die Zeile row ist bereits normiert, d.h. das Diagonalelement ist 1.
-func (m Matrix) EliminateBelow(row int) {
+// Voraussetzung: Die Zeile col ist bereits normiert, d.h. das Diagonalelement ist 1.
+func (m Matrix) EliminateBelow(col int) {
 	// TODO
 }
 
